@@ -7,11 +7,11 @@ Welcome to the CAP Cloud Community Edition! This is the open-source version of C
 CAP Cloud Community Edition provides essential features for cloud infrastructure management while maintaining simplicity and ease of use. This repository contains the community-supported version of CAP Cloud.
 
 To opearate the CAP you also need to install 
-[CAP ENGINE provides the core functionality, including agent management, task management, and workflow management](https://github.com/Agaile-com/cap-engine-community)
-[CAP FRONTEND calles the ENGINE and provides a web interface](https://github.com/Agaile-com/cap-frontend-community)
-[CAP INGESTION is used to ingest data from various sources](https://github.com/Agaile-com/cap-ingestion-community)
+[CAP ENGINE which provides the core functionality, including agent management, task management, and workflow management](https://github.com/Agaile-com/cap-engine-community)
+[CAP FRONTEND which calles the ENGINE and provides a web interface](https://github.com/Agaile-com/cap-frontend-community)
+[CAP INGESTION which is used to ingest data from various sources](https://github.com/Agaile-com/cap-ingestion-community)
 
-![CAP Architecture](images/LangGraph-ECS-Architecture.png)
+![CAP Architecture](./docs/images/LangGraph-ECS-Architecture.png)
 
 - Core infrastructure management capabilities
 - Basic deployment automation
