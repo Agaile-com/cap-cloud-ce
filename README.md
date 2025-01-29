@@ -4,19 +4,18 @@ Welcome to the CAP Cloud Community Edition! This is the open-source version of C
 
 ## Overview
 
-CAP Cloud Community Edition provides essential features for cloud infrastructure management while maintaining simplicity and ease of use. This repository contains the community-supported version of CAP Cloud.
+CAP Cloud Community Edition provides essential features for cloud infrastructure management while maintaining simplicity and ease of use. This repository contains the core piece of the community-supported version of CAP Cloud.
 
-To opearate the CAP you also need to install 
-[CAP ENGINE which provides the core functionality, including agent management, task management, and workflow management](https://github.com/Agaile-com/cap-engine-community)
-[CAP FRONTEND which calles the ENGINE and provides a web interface](https://github.com/Agaile-com/cap-frontend-community)
-[CAP INGESTION which is used to ingest data from various sources](https://github.com/Agaile-com/cap-ingestion-community)
 
 <img src="./docs/images/LangGraph-ECS-Architecture.png" alt="CAP Architecture" width="100%" />
 
-- Core infrastructure management capabilities
-- Basic deployment automation
-- Community-driven development
-- MIT licensed
+
+Start your project with the ingestion service. The quality of the data ingested is a key factor for the performance of the CAP. As the langgraph ECS Service is not part of the community edtion, open an account at [LangGraph](https://langchain.com/langgraph) and follow the instructions to install the service. Then follow the instructions in the [CAP INGESTION](https://github.com/Agaile-com/cap-ingestion-community) repository to install the ingestion service.
+
+You also need to install the CAP ENGINE. Follow the instructions in the [CAP ENGINE](https://github.com/Agaile-com/cap-engine-community) and use the resulting image to deploy what we call ENGINE-Lite service on the LangGraph Platform. ([Langsmith](https://smith.langchain.com/))
+
+and [CAP FRONTEND](https://github.com/Agaile-com/cap-frontend-community) repositories.
+
 
 ## Getting Started
 
