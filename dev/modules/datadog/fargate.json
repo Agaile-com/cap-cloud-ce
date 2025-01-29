@@ -1,0 +1,26 @@
+{
+    "family": "datadog-agent",
+    "networkMode": "awsvpc",
+    "containerDefinitions": [
+        {
+            "name": "datadog-agent",
+            "image": "public.ecr.aws/datadog/agent:latest",
+            "essential": true,
+            "environment": [
+                {
+                    "name": "DD_API_KEY",
+                    "value": "c831941439f3e0d1e4779628414bebfa"
+                },
+                {
+                    "name": "ECS_FARGATE",
+                    "value": "true"
+                }
+            ]
+        }
+    ],
+    "requiresCompatibilities": [
+        "FARGATE"
+    ],
+    "cpu": "256",
+    "memory": "512"
+  }
