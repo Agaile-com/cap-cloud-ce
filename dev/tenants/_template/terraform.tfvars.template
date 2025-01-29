@@ -1,0 +1,35 @@
+# Replace these values with tenant-specific configuration
+aws_region  = "eu-central-1"
+environment = "prod"
+tenant_name = "TENANT_NAME"  # Replace with actual tenant name
+
+# ALB Configuration
+certificate_arn   = "arn:aws:acm:eu-central-1:ACCOUNT_ID:certificate/CERTIFICATE_ID"
+health_check_path = "/"
+enable_deletion_protection = false
+
+# ECS Configuration
+container_image = "${local.container_image_base}/cap-engine:latest"
+container_port  = 3000
+task_cpu        = 256
+task_memory     = 512
+service_desired_count = 1
+
+container_environment = [
+  {
+    name  = "ENVIRONMENT"
+    value = "prod"
+  },
+  {
+    name  = "LANGCHAIN_API_KEY"
+    value = "YOUR_LANGCHAIN_API_KEY"
+  },
+  {
+    name  = "LANGGRAPH_API_URL"
+    value = "YOUR_LANGGRAPH_API_URL"
+  },
+  {
+    name  = "NEXT_PUBLIC_LANGGRAPH_ASSISTANT_ID"
+    value = "YOUR_ASSISTANT_ID"
+  }
+] 
