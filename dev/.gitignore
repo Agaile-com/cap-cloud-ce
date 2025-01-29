@@ -1,0 +1,24 @@
+# Terraform files
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+errored.tfstate
+
+# Local files
+*.bak
+*.zip
+generated/
+backup/
+
+# Lambda packages
+**/function_payload/node_modules/
+**/edge_signer/node_modules/
+
+# Environment specific
+terraform.tfvars
+!terraform.tfvars.example
+
+# Logs
+*.log
+endpoint_status_log.csv
