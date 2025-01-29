@@ -11,7 +11,7 @@ To opearate the CAP you also need to install
 [CAP FRONTEND which calles the ENGINE and provides a web interface](https://github.com/Agaile-com/cap-frontend-community)
 [CAP INGESTION which is used to ingest data from various sources](https://github.com/Agaile-com/cap-ingestion-community)
 
-![CAP Architecture](./docs/images/LangGraph-ECS-Architecture.png)
+<img src="./docs/images/LangGraph-ECS-Architecture.png" alt="CAP Architecture" width="100%" />
 
 - Core infrastructure management capabilities
 - Basic deployment automation
