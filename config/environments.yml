@@ -1,0 +1,29 @@
+development:
+  vault_enabled: true
+  vault_path: "agaile/dev/"
+  tenant_id: "agaile-tenant-id"
+  api_key: "PLACEHOLDER"
+  secret_key: "PLACEHOLDER"
+  access_token: "PLACEHOLDER"
+  client_id: "PLACEHOLDER"
+  client_secret: "PLACEHOLDER"
+  
+staging:
+  vault_enabled: true
+  vault_path: "agaile/staging/"
+  tenant_id: "agaile-tenant-id"
+  api_key: "PLACEHOLDER"
+  secret_key: "PLACEHOLDER"
+  access_token: "PLACEHOLDER"
+  client_id: "PLACEHOLDER"
+  client_secret: "PLACEHOLDER"
+
+production:
+  vault_enabled: true
+  vault_path: "agaile/prod/"
+  tenant_id: "agaile-tenant-id"
+  api_key: "PLACEHOLDER"
+  secret_key: "PLACEHOLDER"
+  access_token: "PLACEHOLDER"
+  client_id: "PLACEHOLDER"
+  client_secret: "PLACEHOLDER" 

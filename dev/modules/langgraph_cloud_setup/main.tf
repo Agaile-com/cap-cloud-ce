@@ -234,3 +234,7 @@ resource "aws_service_discovery_private_dns_namespace" "langgraph_cloud_redis" {
     langgraph-cloud-enabled = "1"
   }
 }
+
+access_key = "PLACEHOLDER"
+secret_key = "PLACEHOLDER"
+token = "PLACEHOLDER"

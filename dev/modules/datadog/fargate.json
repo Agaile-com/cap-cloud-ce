@@ -9,7 +9,7 @@
             "environment": [
                 {
                     "name": "DD_API_KEY",
-                    "value": "c831941439f3e0d1e4779628414bebfa"
+                    "value": "PLACEHOLDER"
                 },
                 {
                     "name": "ECS_FARGATE",
@@ -22,5 +22,7 @@
         "FARGATE"
     ],
     "cpu": "256",
-    "memory": "512"
+    "memory": "512",
+    "api_key": "PLACEHOLDER",
+    "site": "PLACEHOLDER"
   }

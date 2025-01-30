@@ -1,0 +1,12 @@
+resources:
+  - name: agaile-app-identity
+    type: Microsoft.ManagedIdentity/userAssignedIdentities
+    properties:
+      tenantId: "agaile-tenant-id"
+    
+  - name: web-app
+    type: Microsoft.Web/sites
+    identity:
+      type: UserAssigned
+      userAssignedIdentities:
+        ${agaile-app-identity-id}: {} 
