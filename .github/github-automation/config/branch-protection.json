@@ -1,0 +1,24 @@
+{
+    "branch_protection_rules": [
+      {
+        "name": "main",
+        "enforcement_level": "active",
+        "protect": {
+          "required_status_checks": {
+            "strict": true,
+            "contexts": ["continuous-integration/jenkins", "security-scan"]
+          },
+          "required_pull_request_reviews": {
+            "required_approving_review_count": 2,
+            "dismiss_stale_reviews": true,
+            "require_code_owner_reviews": true
+          },
+          "restrictions": {
+            "users": [],
+            "teams": ["cap-maintainers"],
+            "apps": []
+          }
+        }
+      }
+    ]
+  }
