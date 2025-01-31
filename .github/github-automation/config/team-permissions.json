@@ -1,0 +1,11 @@
+{
+    "community-cap": {
+      "permission": "pull"
+    },
+    "contributors-cap": {
+      "permission": "push"
+    },
+    "maintainers-cap": {
+      "permission": "maintain"
+    }
+  }
