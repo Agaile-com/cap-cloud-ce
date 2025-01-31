@@ -1,0 +1,5 @@
+# Example CODEOWNERS file
+* @global-owner
+/frontend/ @frontend-team-lead
+/backend/ @backend-team-lead
+*.js @javascript-experts
