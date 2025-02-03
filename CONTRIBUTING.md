@@ -84,8 +84,7 @@ We warmly welcome contributions from the community! Here's how you can help make
 
 ### Need Help?
 
-- Join our [Discord Community](link-to-discord)
-- Check our [Contributing FAQ](link-to-faq)
+- Join our Community: https://enterprise.agaile.ai/
 - Ask in GitHub Discussions
 
 ### Recognition
