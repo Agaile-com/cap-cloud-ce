@@ -1,4 +1,9 @@
-# CAP Cloud Community Version
+# CAP - Empowering Enterprise AI Transformation with Open Source
+This repository is part of CAP - a platform for building and deploying AI applications. It is built with LangGraph and Model Context Protocol (MCP).
+Find more about CAP at [https://cap.agaile.ai](https://cap.agaile.ai).
+
+
+## CAP Cloud Community Version
 
 CAP (Core AI Platform) is an end-to-end solution to configure and deploy AI agents. This version is free for personal use as well as for research. It provides core functionality for cloud infrastructure management and automation, serving as a starting point for users that seek a secure, flexible, and scalable entry into agentic AI development using AWS and LangGraph.
 
